@@ -195,34 +195,50 @@
         </div>
       </section>
 
-      <section id="contact" class="solutions">
-        <div class="row1 bg-light">
-          <img src="images/callback.jpg" alt="call">
-        </div>
-        <div class="row2 bg-light">
-          <div class="row2-text">
-            <h1>Request Call Back</h1>
-            <form className="callback-form">
-             
-                <input type="text" placeholder="Enter Name"><br>
-           
-
-            
-                <input type="text" placeholder="Enter Email"><br>
-             
-             
-           
-              <input type="text" placeholder="Enter Phone"><br>
-              
-           
-              <input type="submit">
-
-
-            </form>
-            <div class="btn btn-outline">Read More</div>
+      <section id="contact" class="contact flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="images/callback.jpg" alt="" />
+            </div>
           </div>
-         </div>
-        </section>
+          <div class="column">
+            <div class="column-2 bg-light">
+              <h2>Request Callback</h2>
+              <form action="" class="callback-form">
+                <div class="form-control">
+                  <label for="name"></label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter name"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="email"></label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="phone"></label>
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Enter phone"
+                  />
+                </div>
+                <input type="submit" value="Send" id="submit" class="btn" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
 </main>
 
 <footer class="footer bg-dark">
